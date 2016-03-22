@@ -113,6 +113,7 @@ body {
         line-height: 1.5;
     }
     
+        
     #comments {
         .comment {
             border-bottom: 1px solid #d1d1d1;
@@ -169,4 +170,42 @@ body {
         }
     }
         
+}
+
+#post_form {
+    h1 {
+        font-weight: 100;
+        font-size: 2em;
+        color: #397CAC;
+        margin-top: 0;
+    }
+    p {
+        color: #B2BAC2;
+        font-size: 0.9rem;
+        font-weight: 100;
+        line-height: 1.5;
+    }    
+    
+        input[type="submit"] {
+            background: #397CAC;
+            border: none;
+            color: white;
+            font-weight: 100;
+            padding: .5em 1em;
+            border-radius: .2em;
+        }
+        #post_content {
+            width: 100%;
+            min-height: 200px;
+            border: 1px solid #D1D1D1;
+            border-radius: .2em;
+            margin: 1em 0;
+        }
+        #post_title {
+            width: 100%;
+            min-height: 35px;
+            border: 1px solid #D1D1D1;
+            border-radius: .2em;
+            margin: 1em 0;
+        }
 }
